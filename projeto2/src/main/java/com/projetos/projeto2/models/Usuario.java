@@ -20,14 +20,14 @@ public class Usuario implements Serializable{
 	
 		@Id
 		@GeneratedValue(strategy = GenerationType.AUTO)
-		private int idUsuario;
+		private Long idUsuario;
 		private String nome;
 		private String senha;
 		
-		public int getIdUsuario() {
+		public Long getIdUsuario() {
 			return idUsuario;
 		}
-		public void setIdUsuario(int idUsuario) {
+		public void setIdUsuario(Long idUsuario) {
 			this.idUsuario = idUsuario;
 		}
 		public String getNome() {
