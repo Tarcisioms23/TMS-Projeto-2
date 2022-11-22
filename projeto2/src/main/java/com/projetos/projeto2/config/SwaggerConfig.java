@@ -35,8 +35,8 @@ public class SwaggerConfig {
 	private ApiInfo metaInfo() {
 
 		ApiInfo apiInfo = new ApiInfo(
-				"Projeto 1 : API Rest (Produtos)",
-				"Cadastrar Produtos - Com API Rests",
+				"Projeto 2 : API Rest (Usuario)",
+				"Cadastrar Usuarios - Com API Rests",
 				"1.0",
 				"Terms of Service",
 				new Contact("Tarcisio Moreira da Silva", "www.tamosilva.com.br", "tarcisioms23@hotmail.com"),
