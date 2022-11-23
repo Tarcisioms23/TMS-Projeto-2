@@ -1,0 +1,10 @@
+CREATE DATABASE PROJETO_2; -- CRIAR BASE DE DADOS , antes de iniciar o projeto
+
+
+- Para testar pode inserir esses produtos 
+INSERT INTO TB_USUARIO(id_Usuario, nome, Senha) VALUES (1, 'Tarcisio', '123');
+INSERT INTO TB_USUARIO(id_Usuario, nome, Senha) VALUES (2, 'Administrador', '123');
+INSERT INTO TB_USUARIO(id_Usuario, nome, Senha) VALUES (3, 'Usuario', '123');
+
+
+select * from tb_usuario;
